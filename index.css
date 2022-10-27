@@ -1,0 +1,123 @@
+.cabeçalho {
+    margin: 50px 0;
+    font-family: sans-serife;
+    font-size: 15px;
+  }
+  .body {
+    background-color: #89d8d1;
+ }
+ 
+  div.container {
+    margin: 10px 20px;
+    float: left;
+    
+  
+  }
+  div.container.img {
+    height: auto;
+    width: 50%;
+    border: 10px;
+    padding: 10px;
+    float: left;
+  }
+  .texto-principal {
+    padding:50px;
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: justify;
+    
+
+  }
+  .pie {
+    text-align: center ;
+    text-shadow:1px 1px 1px 2px;
+    padding: 1px;
+
+   }
+   .pie-redes {
+    text-align: right;
+
+   }
+   .pie-redes a {
+   color: darkred;
+    
+   }
+  
+  .titulo {
+    margin: 5px;
+    border: 0px;
+    font-size: 25px;
+    color:brown;
+    opacity: 0.7;
+  }
+    .titulo:hover {
+      opacity: 2;
+
+  }
+  .menu li {
+    margin: 0;
+    padding: 12px 30px;
+    list-style: none;
+    float: left;
+    display: block;
+    background-color: hsl(240, 87%, 46%);
+    color:white;
+    font-size: 25px;
+  
+  }
+  .menu li a {
+    color: white;
+  }
+   
+  
+  .menu li:hover {
+    opacity: 2;
+    color: rgba(255, 153, 0, 1);
+    background: rgba(0,0,0,0.2);
+    animation: 1s ms 1;
+  }
+
+  @keyframes ms {
+    0% {
+      opacity: 0;
+      transform: scale(1.6);
+    }
+  }
+  .barra {
+color: rgba(153,153,153,1);
+padding: 15px 0 0 0;
+  }
+
+  p.estudos, 
+  p.cursos, 
+  p.trabalhos, 
+  p.objetivos, 
+  p.descriçao {
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: justify;
+    padding:50px;
+  }
+  ul.trabalhos {
+    font-family: Verdana;
+    font-size: 20px;
+  }
+  .conteudo {
+    font-family: Verdana;
+
+  }
+  .fondo {
+    background-color: aquamarine;
+  }
+  .enviar {
+    background-color:hsl(0, 83%, 39%);
+  }
+  
+
+   
+
+  
+
+  
+  
+   
